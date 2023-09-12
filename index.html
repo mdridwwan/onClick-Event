@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: rgb(238, 236, 236);
+      font-family:system-ui;
+      margin: 50px auto;
+      text-align: center;
+    }
+    #content{
+      width: 500px;
+      margin: 20px auto;
+      background-color: white;
+      padding: 10px;
+      max-height: 240px;
+      overflow: hidden; 
+
+      -webkit-transition: 7s;
+      -moz-transition: 7s;
+      transition: 7s;
+      
+    }
+    #content.open{
+      max-height: 1000px;
+
+      -webkit-transition: 7s;
+      -moz-transition: 7s;
+      transition: 7s;
+    }
+    #show-more{
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color: rgb(39, 90, 255);
+      color: white;
+      margin-top: 20px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+      <h2>Hi</h2>
+      <div id="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rem aperiam debitis necessitatibus deserunt nam, velit numquam, architecto veniam corrupti, vitae optio ducimus voluptates suscipit recusandae vero dolorem quibusdam sapiente consectetur adipisci sunt doloremque assumenda magnam? Aut sapiente ducimus atque voluptate doloremque unde mollitia sunt consectetur alias ab cum cumque error quam delectus necessitatibus aperiam debitis, veritatis pariatur temporibus facilis! Suscipit,<br> <br> reiciendis aut ducimus odam, impedit at non? Pariatur laudantium voluptates, inventore iure corporis reiciendis quas modi nam!
+        Consectetur, dolore nemo! Doloribus dolor accusantium deserunt fugit libero labore? Magni natus velit nulla dolorem esse placeat aut ipsa corres fugit deserunt, laudantium quidem quaerat, ad ratione a consectetur cumque pariatur facilis? Quo ullam qui magnam temporibus esse, voluptatibus dolorem necessitatibus ducimus! Obcaecati ex et dolorem ipsam ullam explicabo odit voluptas nobis, repellat reiciendis beatae, ea hic quae earum eligendi delectus deleniti placeat aliquam sequi tempore a. Perferendis?</p>
+      </div>
+
+      <a id="show-more">Show More</a>
+
+  <script src="./index.js"></script>
+</body>
+</html>
